@@ -25,7 +25,7 @@ function App() {
     <div className="App">
       
       <nav>
-                <Link to="/">Home</Link>
+                <Link to="/Pokedex">Home</Link>
                 <Link to="/search">Search</Link>
                 <Link to="/about">About</Link>
       </nav>
