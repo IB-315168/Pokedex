@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import {Link } from "react-router-dom";
 import "./App.css";
 import PokeCard from "./PokeCard";
 
@@ -24,11 +23,12 @@ function App() {
   return (
     <div className="App">
       
-      <nav>
+      {/* <nav>
                 <Link to="/Pokedex">Home</Link>
                 <Link to="/search">Search</Link>
                 <Link to="/about">About</Link>
-      </nav>
+      </nav> */}
+
       <h1>Pokedex</h1>
       <button onClick={() => {if(offset > 19) setOffset(offset - 20);}}>Prev</button>
       <input type="number" value={offset} onChange={(e) => {if(e.target.value >= 0 && e.target.value <= 1261) setOffset(e.target.value)}}></input>
