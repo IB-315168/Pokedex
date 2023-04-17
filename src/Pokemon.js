@@ -24,7 +24,7 @@ function Pokemon() {
 
   return (
     <div>
-        <Link to="/"><img id="back" src="https://www.freeiconspng.com/uploads/arrow-icon-28.png" alt="Close" /></Link>
+        <Link to="/Pokedex"><img id="back" src="https://www.freeiconspng.com/uploads/arrow-icon-28.png" alt="Close" /></Link>
         <div className="fullcard">
         
         <h1 id="name">{pokemon.name != null && pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)}</h1>
