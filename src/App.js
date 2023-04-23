@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import PokeCard from "./PokeCard";
+import Navbar from "./Navbar";
 
 function App() {
   const [pokeData, setData] = useState([]);
@@ -22,7 +23,7 @@ function App() {
 
   return (
     <div className="App">
-      
+      <Navbar />
       {/* <nav>
                 <Link to="/Pokedex">Home</Link>
                 <Link to="/search">Search</Link>

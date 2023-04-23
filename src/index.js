@@ -8,7 +8,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Pokemon from './Pokemon';
-import Navbar from './Navbar';
 import About from './About';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -29,9 +28,9 @@ const router = createBrowserRouter([
 ]);
 
 root.render(
-  <React.StrictMode>
-    <Navbar />
-    <RouterProvider router={router} />
+  <React.StrictMode>  
+    <RouterProvider router={router}>
+    </RouterProvider>
   </React.StrictMode>
 );
 

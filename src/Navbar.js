@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
     return (
@@ -7,10 +8,10 @@ function Navbar() {
         <img src="/pokeball.png" alt="Pokeball" className="navbar-logo" />
         <ul className="navbar-brand">
           <li className="navbar-item">
-            <a className="nav-link" href="/Pokedex">Pokédex</a>
+            <NavLink className="nav-link" to="/Pokedex">Pokédex</NavLink>
           </li>
           <li className="navbar-brand">
-            <a className="nav-link" href="/Pokedex/about">About</a>
+            <NavLink className="nav-link" to="/Pokedex/about">About</NavLink>
           </li>
         </ul>
         <div className="navbar-search">
