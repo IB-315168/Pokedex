@@ -22,7 +22,7 @@ function About() {
                 <p>Code: <a href="https://github.com/IB-315168/Pokedex">IB-315168 @ Github</a></p>
             <hr />
             <h2>Lighthouse report</h2>
-                <img src="" alt="report"></img>
+                <img src="/Pokedex/lighthouse.png" alt="report"></img>
         </div>
     );
 }

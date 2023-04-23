@@ -6,6 +6,11 @@
     padding: 10px 20px;
     font-family: "Pokemon Solid", sans-serif; /* font family for pokemon font */
   }
+
+  .navbar img {
+    width: 5rem;
+    height: 5rem;
+  }
   
   .navbar-brand {
     list-style-type: none;

@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 function Navbar() {
     return (
       <nav className="navbar">
-        <img src="/pokeball.png" alt="Pokeball" className="navbar-logo" />
+        <img src="https://www.freeiconspng.com/uploads/pokeball-transparent-png-2.png" alt="Pokeball" className="navbar-logo" />
         <ul className="navbar-brand">
           <li className="navbar-item">
             <NavLink className="nav-link" to="/Pokedex">Pokédex</NavLink>
