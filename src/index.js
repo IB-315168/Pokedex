@@ -9,6 +9,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Pokemon from './Pokemon';
 import Navbar from './Navbar';
+import About from './About';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/Pokedex/pokemon/:pokemonId",
     element: <Pokemon />
+  },
+  {
+    path: "/Pokedex/about",
+    element: <About />
   }
 ]);
 
