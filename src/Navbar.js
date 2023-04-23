@@ -10,7 +10,7 @@ function Navbar() {
             <a className="nav-link" href="/Pokedex">Pokédex</a>
           </li>
           <li className="navbar-brand">
-            <a className="nav-link" href="/search">Search</a>
+            <a className="nav-link" href="/Pokedex/about">Search</a>
           </li>
         </ul>
         <div className="navbar-search">

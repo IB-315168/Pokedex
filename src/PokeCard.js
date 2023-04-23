@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function PokeCard({ id, pokemon: { key, name, url } }) {
   return (
     <td className="pokecard" key={key}>
-      <Link to={"/pokemon/"+id}>
+      <Link to={"/Pokedex/pokemon/"+id}>
         <div id="link">
             <img
             src={
